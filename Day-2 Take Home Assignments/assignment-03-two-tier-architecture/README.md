@@ -4,7 +4,9 @@
 In this assignment, I am going to build two-tier AWS architecture consisting of a publicly accessible web server and a secure, private database. The goal was to practice setting up secure network segments, creating proper security group rules, and managing Terraform configurations neatly.
 
 First, I created a new directory called assignment-03-two-tier-architecture. 
-![image](https://github.com/user-attachments/assets/464355f7-eafe-4525-bf88-df4eca8cdd44)
+
+![Screenshot 2025-06-14 212357](https://github.com/user-attachments/assets/027bec86-237f-4697-9d8d-f9298cd2f990)
+
 
 To keep things organized, I split my Terraform files into clear sections:
 **network.tf:** for defining the VPC, subnets (public and private), internet gateway, NAT gateway, and route tables.
